@@ -18,9 +18,9 @@ public class Estabelecimento {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private String nome;
-    private int cnpj;
+    private String cnpj;
     private String endereco;
-    private int telefone;
+    private String telefone;
     private int qtdVagasMotos;
     private int qtdVagasCarros;
 
